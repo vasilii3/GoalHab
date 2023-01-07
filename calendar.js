@@ -44,7 +44,7 @@ if(!year) {
     }
 let startDay = new Date(year, month, 1).getDay();
 
-//console.log(monthNames.short[today.getMonth()]); //returns the current month in Long
+//console.log(monthNames.short[today.getMonth()]); //returns the current month in Short
 //console.log(monthNames.long[today.getMonth()]); //returns the current month in Long
 
 if (startDay === 0) { // if the month starts at Sunday , make sunday day 7 in the week
